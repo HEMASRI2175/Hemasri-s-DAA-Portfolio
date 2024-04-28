@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Chettim chetty Hemasri</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">E-Lab</a></li>
+          <li><a href="#projects4">Activities</a></li>
+          <li><a href="#ct">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Chettim chetty Hemasri</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">E-lab</a></li>
+          <li><a href="#projects4" onclick="toggleMenu()">Activities</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="fotor-20240428163432.png" height="280px" width="280px;" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Chettim chetty Hemasri</h1>
+        <p class="section__text__p2">Welcome to my DAA Portfolio</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('HEMASRI.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#ct'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/chettim-chetty-hemasri-4322a526b/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/HEMASRI2175'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="about.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>CGPA</h3>
+              <p>9.76 <br />SGPA-9.83</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Faculty</h3>
+              <p>Dr.B.Kanisha <br />
+                21CSC204J-Design and Analysis of Algorithms</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech - CSE <br />SRM Institute of science and technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              As a second-year student pursuing Computer Science and Engineering (CSE) at SRM Institute of Science and Technology, I have delved into the intricate realm of algorithm design and analysis under the tutelage of Dr. B. Kanisha Ma'am. This portfolio encapsulates my journey through the Design and Analysis of Algorithms (DAA) course, offering insights into my grasp of fundamental concepts, practical implementations, and analytical prowess in algorithmic problem-solving.
+            </p>
+      
+          
+        </div class="text-container">
+          
+        <h4>Learning Objective:</h4>
+        <p>
+       
+
+          Under the guidance of Dr. B. Kanisha Ma'am, the course aimed to achieve the following objectives:
+          <br>
+          
+          Mastery of fundamental algorithms and data structures.
+          Proficiency in algorithm analysis, including time and space complexities.
+          Application of algorithmic techniques to solve real-world problems.
+          Development of critical thinking and problem-solving skills through project-based learning.      </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Theory classes</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Introduction to Algorithm Design</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Divide and Conquer</h3>
+                
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Greedy and Dynamic Programming</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Backtracking</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Randomized and approximation Algorithm</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>DSA Algorithms </h3>
+                 
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Lab sessions</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Simple Algorithm-Insertion sort & Bubble sort</h3>
+               
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Linear search,Binary search</h3>
+               
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Merge sort,Quick sort</h3>
+               
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Strassen matrix multiplication</h3>
+            
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Minimum & Maximum in a array & Convex hull Problem</h3>
+            
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Huffman coding,Knapsack using greedy</h3>
+            
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Strassen matrix multiplication</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>N Queen's Problem</h3>
+            
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Travelling salesman problem</h3>
+            
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Randomized quick Sort & String Matching algorithms </h3>
+            
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+  
+    <section id="projects">
+      <p class="section__text__p1"></p>
+      <h1 class="title">E-Lab Status</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="elab.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <p>Elab assisted me in troubleshooting the code, providing valuable insights into problem-solving techniques and enhancing my understanding of the task at hand</p>
+            </div>
+          </div>
+         
+        </section>
+        <section id="projects4">
+          <p class="section__text__p1"></p>
+          <h2 class="title">DAA Activities</h2>
+          
+          <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container1 color-container">
+                <div class="article-container">
+                  <h2 class="title">Lab Experiment Completion Status</h2>
+                  <img
+                    src="lab.jpg"
+                    alt="Project 1"
+                    class="project-img"
+                  />
+                </div>
+                
+            
+         <section id="projects1">
+          <p class="section__text__p1"></p>
+          <h2 class="title">Realtime Application Demo</h2>
+          <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="project.png"
+                    alt="Project 1"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Shortest Path visualizer -Greedy Approach</h2>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/HEMASRI2175/Greedy_Shortest-path-visualizer'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://drive.google.com/file/d/1QWmBemBn4qUURfWp978cg9ZYIy-CB7Wd/view?usp=sharing'"
+                  >
+                    Live Demo
+                  </button>
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://drive.google.com/file/d/1qttrZuUFJG0w7ydlwJ2ufj_AluNwq5gg/view?usp=sharing'"
+                  >
+                    Report
+                  </button>
+      
+                </div>
+                <div>
+                  <h3><br>What I've Learnt ?</h3><br>
+                  <p><b>Algorithmic Understanding:</b> Attained a comprehensive understanding of Dijkstra's algorithm, focusing on its greedy approach to pathfinding on a grid-based structure.<br>
+                     <b>Interactive Visualization Development: </b>Acquired expertise in developing interactive educational tools using libraries like Pygame, enabling real-time visualization of algorithmic processes for enhanced comprehension.<br>
+                     <b>Data Structures and Optimization:</b> Demonstrated proficiency in implementing Dijkstra's algorithm efficiently, utilizing data structures such as priority queues to optimize pathfinding computations and improve algorithm performance.<br>
+                     <b>User Interface Design and User Interaction:</b> Developed intuitive graphical user interfaces (GUIs) allowing users to interact with the grid, set start and end points, add barriers, and trigger algorithm visualization, fostering hands-on learning experiences.<br></p>
+                </div>
+              </div>
+         
+      
+    </section>
+    <section id="projects2">
+      <p class="section__text__p1"></p>
+      <h2 class="title">Assignment on recursive relation</h2>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+              <img
+                src="2.png"
+                alt="Project 1"
+                class="project-img"
+              />
+              <img
+                src="3.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <p><br><b>I completed the assignment </b>that involved drawing the recursive tree for the Fibonacci series and analyzing its time complexity using the substitution method. Additionally, I created a table listing various algorithms from Units I & II, along with their best, worst, average, and master method time complexities. Understanding these complexities is crucial for designing efficient algorithms to solve real-world problem</p>
+            </div>
+          </div>
+</section>
+<section id="projects5">
+  <p class="section__text__p1"></p>
+  <h2 class="title">Certification</h2>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="certificate.png"
+            alt="Project 1"
+            class="project-img1"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Udemy - Design & Analysis of Algorithms</h2>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://www.udemy.com/certificate/UC-13689abf-a78a-420c-abf5-332b8bec516a'"
+          >
+            Verify at
+          </button>
+        
+
+        </div>
+        <div>
+          <h3><br>What I've Learnt ?</h3><br>
+          <p> <b>M</b>astered clear algorithmic writing, ensuring precise and understandable step-by-step explanations.<br>
+              <b>P</b>roficient in analyzing algorithms for time and space complexities, aiding in optimal resource utilization.<br>
+              <b>A</b>cquired diverse problem-solving methodologies like Divide and Conquer, Greedy Method, etc., with practical applications and examples.<br>
+              <b>D</b>eveloped strong algorithm tracing skills, facilitating effective debugging and deeper understanding of code flow<br></p>
+        </div>
+      </div>
+
+
+
+ 
+
+</section>
+<section id="projects5">
+  <p class="section__text__p11"></p>
+  <h2 class="title">Presentation</h2>
+  <div class="experience-details-container1">
+    
+        <div class="article-container">
+          <img
+            src="presentation.jpeg"
+            alt="Project 1"
+            class="project-img1"
+          />
+        </div><br>
+
+        <h2 class="experience-sub-title project-title">Matrix Chain Multiplication</h2>
+        <div class="btn-container">
+        </div>
+        <div>
+          <p>Delivered an insightful presentation in class on the topic of Matrix Chain Multiplication, focusing on the application of Dynamic Programming for optimizing matrix multiplication operations. Explored the intricacies of the algorithm, including its implementation, time complexity analysis, and real-world applications. Demonstrated problem-solving prowess and communication skills through clear explanation and engaging examples, fostering deeper understanding among peers.</p>
+        </div>
+      </div>
+
+
+    </section>
+    <section id="projects5">
+      <p class="section__text__p111"></p>
+      <h2 class="title">Classroom-Activities</h2>
+      <div class="experience-details-container2">
+        
+            <div class="article-container">
+              <img
+                src="Ca.jpeg"
+                alt="Project 1"
+                class="project-img1"
+              />
+            </div><br>
+    
+            <h2 class="experience-sub-title project-title">Practical Demonstration of Closest Pair Algorithm</h2>
+            <div class="btn-container">
+            </div>
+            <div>
+              <p>Our class activity featured a hands-on demonstration of the Closest Pair Algorithm, led by our Faculty. Through a captivating example involving five classmates, including myself, the algorithm was elucidated with real-world context, fostering a deeper understanding among peers. This interactive session not only showcased the algorithm's application but also underscored the effectiveness of practical learning in algorithmic concepts</p>
+            </div>
+          </div>
+</section>
+<section id="projects5">
+  <p class="section__text__q1"></p>
+  <div class="experience-details-container3">
+        <div class="article-container">
+          <img
+            src="cpgame.jpg"
+            alt="Project 1"
+            class="project-img1"
+          />
+        </div><br>
+
+        <h2 class="experience-sub-title project-title">Algorithmic Charades</h2>
+        <div class="btn-container">
+        </div>
+        <div>
+          <p>Engaged in a dynamic learning experience through Algorithmic Charades, where classmates teamed up to reinforce concepts of Data Structures and Algorithms (DAA). Participants enacted algorithm-related terms while their partners guessed the word and elucidated the suitable approach along with its time complexity. This lively activity not only fostered a deeper understanding of algorithmic concepts but also promoted collaborative problem-solving and communication skills in a fun and interactive manner.</p>
+        </div>
+      </div>
+</section>
+
+<section id="projects5">
+  <p class="section__text__q2"></p>
+  <h2 class="title">Coding platform Progress</h2>
+  <div class="experience-details-container4">
+        <div class="article-container">
+          <img
+            src="hackerrank.png"
+            alt="Project 1"
+            class="project-img1"
+          />
+        </div><br>
+
+        <h2 class="experience-sub-title project-title"> Learning Journey through HackerRank</h2>
+        <div class="btn-container">
+        </div>
+        <div>
+          <p>Embarked on an enriching learning journey on HackerRank, where I immersed myself in a diverse array of coding challenges and competitions. Through consistent practice and problem-solving, I honed my skills in algorithmic thinking, data structures, and efficient coding techniques. HackerRank provided a dynamic platform for hands-on learning, enabling me to expand my knowledge, enhance my problem-solving abilities, and gain valuable insights into real-world coding scenarios.          </p>
+        </div>
+      </div>
+</section>
+<section id="contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  <section id="ct"></section>
+  <div class="contact-info-upper-container">
+   
+    <div class="contact-info-container">
+      <img
+        src="./assets/email.png"
+        alt="Email icon"
+        class="icon contact-icon email-icon"
+      />
+      <p><a href="mailto:examplemail@gmail.com">hc2551@srmist.edu.in</a></p>
+    </div>
+    <div class="contact-info-container">
+      <img
+        src="./assets/linkedin.png"
+        alt="LinkedIn icon"
+        class="icon contact-icon"
+      />
+      <p><a href="https://www.linkedin.com/in/chettim-chetty-hemasri-4322a526b/">LinkedIn</a></p></div>
+</section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">E-Lab</a></li>
+            <li><a href="#projects4">Actvities</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Chettim chetty Hemasri. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
